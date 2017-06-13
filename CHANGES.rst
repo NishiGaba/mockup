@@ -49,6 +49,11 @@ New features:
 - Include TinyMCE 4.5.6
   [frapell]
 
+- Queue validation calls in inlinevalidation pattern using jQuery default queue
+  to ensure validations are called in order and allow custom custom code to be
+  queued after validation has completed
+  [datakurre]
+
 Bug fixes:
 
 - In the insert link/image modal, pass use the correct related items widget options from the ``linkModal`` attribute.
